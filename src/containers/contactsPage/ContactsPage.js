@@ -11,9 +11,9 @@ export const ContactsPage = (props) => {
   contact info and duplicate check
   */
 
-    const [name, setName] = useState('');
-    const [phone, setPhone] = useState('');
-    const [email, setEmail] = useState('');
+    const [name, setName] = useState('Name');
+    const [phone, setPhone] = useState('Phone (Format: 123-123-1234)');
+    const [email, setEmail] = useState('Email');
     const [duplicate, setDuplicate] = useState(false);
     
   useEffect(() =>{

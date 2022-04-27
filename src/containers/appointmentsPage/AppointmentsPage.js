@@ -7,7 +7,7 @@ export const AppointmentsPage = (props) => {
   Define state variables for 
   appointment info
   */
-  const [title, setTitle] = useState('')
+  const [title, setTitle] = useState('Appointment Title')
   const [contact, setContact] = useState('')
   const [date, setDate] = useState('')
   const [time, setTime] = useState('')
